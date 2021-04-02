@@ -40,8 +40,16 @@ git
 	git status
 
 	git commit -m "message you want"    added to local repository
+	ssh key gen:
+		ssh-keygen -t ed25519 -C "email@gmail.com"
 
 	git remote add origin "your remote repo"
+
+	git pull origin main --allow-unrelated-histories
+
+	git push origin master
+	git pull origin master
+
 
 
 
