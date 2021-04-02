@@ -50,6 +50,18 @@ git
 	git push origin master
 	git pull origin master
 
+	after edit:
+	k8s@master-cks:~/Desktop/edureka$ git add introduction.txt 
+k8s@master-cks:~/Desktop/edureka$ git commit -m "second commit"
+[master 9d87275] second commit
+ 1 file changed, 8 insertions(+)
+k8s@master-cks:~/Desktop/edureka$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 3 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 436 bytes | 436.00 KiB/s, done.
+
+
 
 
 
