@@ -61,6 +61,13 @@ Delta compression using up to 3 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 436 bytes | 436.00 KiB/s, done.
 
+CI
+the moment a developer commit a change in source code, jenkins server will pull that code and prepare build. it include more than just compiling the code. it happens in an continuous manner. jenkins have morethan 2500 plugins for this. 
+CD
+in a continuous manner/autmated manner, we take that buld and on to the test server. 
+
+
+
 
 
 
