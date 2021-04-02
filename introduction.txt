@@ -1,0 +1,51 @@
+Devops is basically a software development strategy which bridges the gap between dev side and ops side.
+various stages and tools are involvede in devops. Evrythinh happens continuosly in devops. Starting from coding, testing , deplymenting, monitoring . everything happens continuosly.
+plan, code	git tool
+build		maven
+Test		Se, gradle
+Integration 	jenkins
+deploy,operate	docker,puppet,ansible,chef
+monitor		nagios,stack,splunk
+
+you should know where to use this tools, how to use this tools to get max out od devops.
+
+Various stages involved:
+	Version control/source code management :-maintains different versions of the code
+	
+	continuous integration / continuous build :- compile, validate, code review, unit testing, integration testing
+
+	conti. delivery/conti. testing :- deploying build apps to test servers
+	
+	cont. deployment/ config. managemnt and containirization: deploying testedapps on the prod server for release
+
+
+
+source code management
+
+	the management of changes to documents, computer programs, large websites, and other collection of information
+
+	2 types
+	
+	centralized version control system
+	distributed 				
+	
+	working copy -> commit to shared central repository
+	working copy -> commit to local repo ->  push to server	
+
+git
+
+	cd to working dir
+	git init
+	git add <file name>
+	git status
+
+	git commit -m "message you want"    added to local repository
+
+	git remote add origin "your remote repo"
+
+
+
+
+
+
+	
